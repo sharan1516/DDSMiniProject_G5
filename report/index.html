@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<title>REPORT</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+    <a href="../index.html" class="w3-bar-item w3-button">DDS Mini Project Group-5</a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">Aim</a>
+      <a href="#menu" class="w3-bar-item w3-button">Theory</a>
+      <a href="#contact" class="w3-bar-item w3-button">Procedure</a>
+      <a href="#Reference" class="w3-bar-item w3-button">Reference</a>
+      <a href="../simulator/index.html" class="w3-bar-item w3-button">Simulation</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+  <img class="w3-image"  src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw8SEhUSEg8VFRUVGB8XFxUVFRUVFRUXFxsgFxUVFxUYHSggGBolHRcVITEhJSkrLi4uFx8zODMtNygtLisBCgoKBQUFDgUFDisZExkrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIALcBEwMBIgACEQEDEQH/xAAZAAEBAQEBAQAAAAAAAAAAAAAAAQIDBwT/xAAjEAADAQEAAgICAwEBAAAAAAAAAfChsUFRApERwTGB0XFh/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/APbSAAQMB2gGAwAuC6ELoC0AAW4SwXAAYDF0AgrARf5+gCsCCsCAO0O0O0P/AH9gUlwC4AAF0Aw/N7Iy/LyAdpLgd9sXAFwisLcJcAB2hh2gV2i6LpPzfYF/KBUgBoXAFYBBdAugArAggCF0C6BSAALgFwAGCMoBBWBWET/i9AELArBYAdodododoC0KwC4BLpbpLodoB2j5ef8Agdo+Xm9gGLhbpLgBeL0S4VWEuAHaLpHfTK/N7AXRdF0l0DX5QCYA2yXCkQAO0XQAFwC4ADtAugBcCC8AFYQtwAR2lI7SgRWBWFRFYAQsCFjAO0O0O0O0BdJcLdI7ADtDtDtDtAO0MO0P/QDtFwO0XAFwlwXCXADvoO0P9D5WgHaLouh+b2BpIEQA6XCC4LgAWi6LQCCsCsCsAC6LodoC0KwWhARWAtwAR2lI7SgRWC4FYPN/4AQuhC6AdobvsO0O0BdFwPzeyXALdIw7QAYdoDAXRcDtAEuC4LgVgBkdoQ9/2Aui6HaHaBr4oBADSsIir/P0QC3RaLpQIrA7AhcAXQ7Q7Q7QFoQCAXCC4ADtKLoAisCsKrCKwAg7QrAAdodododoB2h2B2h+b0BLoYdodoBhgnyArtFo+VoAKwisLcIvF6AgZUSwA7Q7Q7Q7QNIpPiUCkuhWBWgW6W0jtABWAIIBdDtDtF0BcCsAVgEVguhC6BXaBdIAuFVhLgVgBWC6FYHaAdouh2h2gHaLgukAO0t0XSXQF0MMO0A7Q77DIAuC4LguAQC4GAdpHaHaV2gaQImANFukLdABB32ACFgQsAjtL+L7DtAAXBcFwCIt0gugUlwpFYAVgVgVgVgBWC6LgdoB2h2h2h2gLpLEX8X9kVgC6LoDtAMO0O0jtArtJaHaHfaAKwKwKwJ30BLEHb/guEugV2kuldpHaBpAn5IB1DDDAMXAABGVB2gHaAxcAlwXArBcAC6GLoFRFfSLcIrACsCsFwXAFwO0XCO0A7S3Q7Q3fYBX2RFtIADtDtDtAjtK/N7J8rQ7QKS4BagC8XoKwKwi8XoAn/F6F0i/gO0BdLdI/N7K7QI2QMAdmBdDAC4CXABXaS6V2gArAS4AVgYDAMXQ7Q7QFwKwKwKwArB+f4vQVgVgEK7QR2gGV2hkAWkV9FRLAK7SO0vytDtAjtK7SO0XQBVYQXAIrBcCsCsAgdoDAO0rtJdK7QMfP+QT5fEoHd2hh2hgCXC3CALodo/F9h2gUlwrJcAfkB2h2gHaHaHaAFwIqMrwBRcDIAYdoZboAgDAIlhUSwA7Q7Q7Q7QDtF0O0AEReL0VMi8XoAvF6CsCsJcAeL0PlfTDvoO+mAfn+/2HaH5vZboGPkB8gB9DtIVgCXCFuACO0O0rIBbhFYW4RIBdDtDtKwBCsgBEsLcABkZWADtDtDtF0BaRFuEVgBWE/F/Rfj4vRLAK7SO0t0jtAO0B2lAisJcKrCKwBcIr6RV4vRAAdpbpGr7AXS3Q7QBn5IhsAdiAAS4R2lAC0iAAKwrAAXSFAEFwoAisAABh+QADtAABWBeL0ABPj4vRPH9foACsgAAWgAFYRWAAAQAH/v7K7QAAAAMAAf/Z" alt="Hamburger Catering" width="300" height="20">
+  <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+    <h1 class="w3-xxlarge">Report<br></h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:1100px">
+<div padding-left:30px;padding-right:30px;>
+  <!-- About Section -->
+
+  <div class="w3-row w3-padding-64" id="about">
+ <h1 style="padding-left:40px;">Aim:</h1>
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="./img/pic.jpeg" alt="Table Setting" width="550" height="300">
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      
+      
+      <p class="w3-large">  Detection of both SA0 and SA1 faults on the logic 
+      circuit that represents a 3–input EVEN function.</p>
+      
+    </div>
+  </div>
+  
+  <hr>
+  
+  <!-- Menu Section -->
+  <div class="w3-padding-64" id="menu">
+    <div class=" w3-padding-large">
+      <h1>  Theory:</h1><br>
+      <p class="w3-large">A fault model is an engineering model of something that could go wrong in the construction or operation of a piece of equipment, A stuck-at fault is a particular fault model used by fault simulators, Individual signals and pins are assumed to be stuck at Logical '1', '0' . For example, an input is tied to a logical 1 state during test generation to assure that a manufacturing defect with that type of behaviour can be found with a specific test pattern.
+The even function is equal to 1 when the number of 1’s in the input combination is even. </p><p class="w3-large">The complement of an odd function is an even function. The complement of an odd function (an even function) is obtained by replacing the output gate with an exclusive-NOR gate</p>
+      <!--truth table-->
+      
+      <div class="w3-container w3-light-grey w3-center">
+<p> <b>Truth table</b>
+</p>
+     <img src="./img/tt.png" alt="Table Setting" width="200" height="250">
+<p><b> Venn Diagram</b><p>
+<img src="./img/theory2.png" alt="Table Setting" width="150" height="150">
+  <p><b>Minimal Terms</b></p>
+<img src="./img/theory.png" alt="Table Setting" >
+  </div>
+
+    
+     
+      
+    </div>
+      
+    </div>
+    
+   
+  </div>
+
+  <hr>
+
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-64" id="contact">
+    <h1>Procedure:</h1><br>
+     <pre class="w3-large">
+To find out the output for SA0 or SA1 faults on a specific position -
+
+Step - 1: For enabling fault at any position, I.e., faults on a, b, c, d or e, give the- input as 0 or 1.
+
+Step - 2: For SA0 - give input 0; for SA1 - input should be 1.
+
+step - 3: Click on the "Add" button to get the desired truth table.
+
+Step - 4: For further simulation - repeat the above steps </pre>
+     
+      
+
+   
+    
+    
+  </div>
+  <div class="w3-container w3-padding-64" id="Reference">
+  <h1>Reference:</h1>
+  <p class="w3-large">1. Wikipedia</p>
+<p class="w3-large">2. Verilog HDL: A Guide to Digital Design and Synthesis, Samir Palnitkar,
+IEEE Press, 1st Edn., 2003</p>
+  </div>
+  
+  
+<!-- End page content -->
+</div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-32">
+  <p class="w3-center "><a href="../simulator/index.html" class="w3-button">SIMULATOR </a></p>
+</footer>
+
+</body>
+</html>
